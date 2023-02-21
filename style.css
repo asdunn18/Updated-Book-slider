@@ -1,0 +1,98 @@
+html,
+body {
+	background-color: rgb(193, 193, 193);
+}
+.wrapper {
+	margin: 30px auto;
+	width: 80%;
+	height: 210px;
+	text-align: left;
+	
+}
+.wrapper {
+	border-bottom-color: white;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: rgb(71, 71, 71);
+}
+.carousel {
+	width: 96%;
+	margin: 40px auto;
+}
+.slick-slide {
+	margin: 0 0 40px 0;
+}
+
+.carousel-card img {
+	display: block;
+	margin: auto 50px 0px;
+	height: 130px;
+	width: 90px;
+	box-shadow: 0px 8px 10px #777676;
+	z-index: 100;
+}
+.carousel-card {
+	transition: .4s;
+}
+
+.carousel-card:hover {
+	transform: perspective(200px) translatey(10px) scale(1.1);
+	
+	
+	
+}
+
+.slick-slider {
+	width: 100%;
+	background-color: transparent;
+}
+
+.slick-arrow:before {
+	font-size: 40px;
+	color: rgb(59, 59, 59);
+}
+
+.slick-prev:before {
+	margin-left: -20px;
+}
+
+.shelf {
+	position: relative;
+	height: 55px;
+	width: 80%;
+	background-color: rgb(0, 0, 0);
+	margin-top: -53px;
+	box-shadow: 30px 20px 20px 0px rgba(0, 0, 0, 0.35);
+	margin-left: auto;
+	margin-right: auto;
+	filter: blur(10px);
+	z-index: -10;
+}
+
+.shelftop {
+  background-color: rgb(193, 193, 193);
+  height: 200px;
+  width: 80%;
+  border: 35px solid rgb(193, 193, 193);
+  margin: auto;
+	margin-top: -290px;
+}
+.shelftop {
+  border-bottom-color: rgb(246, 246, 246);
+}
+
+.front {
+  background-color: rgb(193, 193, 193);
+  height: 200px;
+  width: 80%;
+  border: 35px solid rgb(193, 193, 193);
+  margin: auto;
+  transform: perspective(9000000px) rotatex(70deg);
+  margin-top: -88px;
+  
+}
+.front {
+  border-top-color: rgb(233, 233, 233);
+}
